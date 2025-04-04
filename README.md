@@ -1,6 +1,6 @@
 <h1 align=center>Poem-Api</h1>
 <p align=center><b>原创、免费 の《古诗文网》古诗内容查询API</b></p>
-<p align=center>✨ 您的Star是我们的最大动力 ✨</p>
+<p align=center>🎉 您的Star是我们的最大动力 🎉</p>
 
 ## 开发の原因？
 
