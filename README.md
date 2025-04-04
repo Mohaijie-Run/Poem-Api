@@ -11,8 +11,25 @@
 ## 食用APIの方法？
 
 ### 古诗文搜索（search.php）
-- 请求与返回：GET/XML。
+- 返回的格式：XML文档。
+- 请求示例：GET <code>/search.php?type=唐多令</code>
 - 功能：根据关键词搜索《古诗文网》中的诗篇，返回匹配的诗文标题和链接。
+
+```xml
+<response>
+    <error>
+        <message>请提供诗文标题</message>
+    </error>
+</response>
+```
+
+```xml
+<response>
+    <poem ofetch="https://www.gushiwen.cn/shiwenv_79730f08af17.aspx">唐多令·芦叶满汀洲 - 刘过</poem>
+    <poem ofetch="https://www.gushiwen.cn/shiwenv_d06ebeb22bd3.aspx">唐多令·惜别 - 吴文英</poem>
+    <poem ofetch="https://www.gushiwen.cn/shiwenv_0ada71494eb7.aspx">唐多令·柳絮 - 曹雪芹</poem>
+</response>
+```
 
 ## 该项目の许可证信息？
 
