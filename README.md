@@ -12,7 +12,7 @@
 
 ### 古诗文搜索（search.php）
 - 返回的格式：XML文档。
-- 请求示例：GET <code>/search.php?type=唐多令</code>
+- 请求示例：GET <code>./search.php?type=唐多令</code>
 - 功能：根据关键词搜索《古诗文网》中的诗篇，返回匹配的诗文标题和链接。
 
 ```xml
